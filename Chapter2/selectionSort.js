@@ -1,4 +1,4 @@
-const findSmallest = (array) => {
+const findSmallest = array => {
     let smallestIndex = 0;
     let smallest = array[smallestIndex];
 
@@ -12,7 +12,7 @@ const findSmallest = (array) => {
     return smallestIndex;
 }
 
-const selectionSort = (array) => {
+const selectionSort = array => {
     const sortedArray = [];
     const length = array.length;
 
