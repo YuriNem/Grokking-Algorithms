@@ -65,4 +65,4 @@ const dijkstrasAlgorithm = () => {
 };
 
 dijkstrasAlgorithm();
-console.log(costs, parents);
+console.log(costs, parents); //{ a: 5, b: 2, fin: 6 } { a: 'b', b: 'start', fin: 'a' }
